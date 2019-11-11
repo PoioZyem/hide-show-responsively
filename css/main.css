@@ -17,10 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 img {
   display: block;
   width: 100%;
@@ -64,7 +60,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    width: 30%;
+    width: 25%;
   }
 
   .dino:nth-child(1) {
