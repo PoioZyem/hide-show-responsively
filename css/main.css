@@ -27,10 +27,12 @@ img {
 }
 
 .dino-wrap {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.div {
+.dino:nth-child(2),
+.dino:nth-child(4) {
   display: none;
 }
 
@@ -40,12 +42,21 @@ img {
     width: 50%;
   }
 
+  .dino:nth-child(2),
+  .dino:nth-child(4) {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .dino {
-    width: 40%;
+    width: 33.33%;
+  }
+
+  .dino:nth-child(1) {
+    display: none;
   }
 
 }
@@ -54,6 +65,10 @@ img {
 
   .dino {
     width: 30%;
+  }
+
+  .dino:nth-child(1) {
+    display: block;
   }
 
 }
