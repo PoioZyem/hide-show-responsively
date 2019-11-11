@@ -21,13 +21,13 @@ body {
   margin: 0;
 }
 
-.div {
+.dino-wrap {
   display: none;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .dino {
+  div img {
     width: 50%;
   }
 
@@ -35,7 +35,7 @@ body {
 
 @media only screen and (min-width: 38em) {
 
-  .dino {
+  div img {
     width: 40%;
   }
 
@@ -43,7 +43,7 @@ body {
 
 @media only screen and (min-width: 60em) {
 
-  .dino {
+  div img {
     width: 30%;
   }
 
